@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0" productVersion="7.15.0">
+    <businessObjects>
+        <businessObject qualifiedName="com.company.model.Solicitacaohist">
+            <fields>
+                <field type="STRING" length="255" name="nome_aluno" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="email_aluno" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="cpf_aluno" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="curso_aluno" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="matricula_aluno" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="periodo_aluno" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="solicitacao1" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="pago_boleto" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="aprov" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="dataEmiHist" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="dataVencBoleto" nullable="true" collection="false"/>
+                <field type="DOUBLE" length="255" name="valor_boleto" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="obs_coord" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>
